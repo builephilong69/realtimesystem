@@ -1,4 +1,4 @@
-> source 🌐 : https://mailunipaderbornde-my.sharepoint.com/personal/h2cuong_mail_uni-paderborn_de/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fh2cuong_mail_uni-paderborn_de%2FDocuments%2FTeaching%2FRealtimeSystems%2FVGU2020%2FChapter1%2Epdf&parent=%2Fpersonal%2Fh2cuong_mail_uni-paderborn_de%2FDocuments%2FTeaching%2FRealtimeSystems%2FVGU2020&ga=1
+> source 🌐 : https://bitly.com.vn/45bdjg
 ## Example 
 1. Systems process data at a regular timely rate : - Aircraft positioning system
 2. Systems rapid response to irregular events: - Over - temperature failure in a nuclear plant
