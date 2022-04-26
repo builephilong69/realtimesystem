@@ -39,3 +39,24 @@
 
 
 ![image](https://user-images.githubusercontent.com/80462415/165210132-7f304b03-5475-4aeb-a7c2-0a742d793e9c.png)
+
+# When is a system - realtime
+![image](https://user-images.githubusercontent.com/80462415/165211008-dce209f7-0a22-4ebd-9311-da06e4950466.png)
+
+# Soft vs Hard
+> A **soft** real-time system is one in which performance is degraded but not desotryed by failure to meet response-time constraint
+> A **hard** real-time system is one in which failure to meet a **single deadline** may lead to complete and castatrophic system failure
+
+![image](https://user-images.githubusercontent.com/80462415/165211231-eb883d99-7a49-4bc6-b12c-2f0310ceb0bc.png)
+
+- Example: ❔ Which systems can be considered as hard or soft real-time systems ? Why?
+> Automated teller machine
+> Embedded navigation controller for autonomous robot weeb killer
+> Avionics weapons delivery system in which pressing a button launches an air-to-air missile
+
+
+> A **firm** real-system is the one which could missed a few deadlines then would not lead to total failure, but missing more than a few may lead to complete and castastrophic system failure
+# Where do the deadlines come from
+- Underlying physical status of the system under control
+        + Images updated at approximately 30 frames/second
+        + Accelerations ,must be read at a rate based on the velocity of the vehicle
