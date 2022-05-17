@@ -70,3 +70,6 @@
 ### Non-optimality of EDF and LST
 - Neither algorithm is optimal if jobs are non-preemptable nor if there is more than one processor
 ![image](https://user-images.githubusercontent.com/80462415/168730664-bc5ea108-e7e4-409b-9147-cdb9c57c2788.png)
+## Effective Release times and Deadlines
+![image](https://user-images.githubusercontent.com/80462415/168750033-941fe3aa-bf97-49cd-9701-a780474872a8.png)
+
