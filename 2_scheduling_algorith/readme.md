@@ -45,3 +45,28 @@
 ![image](https://user-images.githubusercontent.com/80462415/168719029-cd4de0d3-81e6-4b41-8a76-a40d18a6106a.png)
 ### Example
 ![image](https://user-images.githubusercontent.com/80462415/168719056-bc3e4145-7cb3-4940-8340-e5e7f300946d.png)
+
+
+## Priority Scheduling
+![image](https://user-images.githubusercontent.com/80462415/168728538-0ef2362c-4afc-40e0-92cd-c8259ac8bd97.png)
+### P-S based on Deadlines
+**Earliest deadline first** ( EDF) - Mainly used:
+- Assign priority to jobs based on deadline
+- Earlier the deadline, higher the priority
+- Simple, just requiresknowledge of deadlines
+**Least Slack Time first(LST)**
+- Assign priority to jobs based on slack time: t_slack_
+- The smaller the slack time, the higher the prority
+![image](https://user-images.githubusercontent.com/80462415/168728888-22642c3d-ce74-4557-9581-f7251a9c45cf.png)
+### Optimality of EDF and LST
+- These are optimal
+- Always produce a feasible schedule if exists
+- **Constraint**:
+        + Single processor
+        + Preemtion
+        + No resources contending
+### Proof
+![image](https://user-images.githubusercontent.com/80462415/168729385-c2da880e-4bf8-45eb-896b-a6549219147a.png)
+### Non-optimality of EDF and LST
+- Neither algorithm is optimal if jobs are non-preemptable nor if there is more than one processor
+![image](https://user-images.githubusercontent.com/80462415/168730664-bc5ea108-e7e4-409b-9147-cdb9c57c2788.png)
